@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: lato;
+}
+/* Root */
+:root{
+ --lightTextColor:#f1f2f2;
+ --darkTextColor:#474747;
+ --borderColor:#e3e5e4;
+}
+body{
+  background-image: url('../imgs/sky.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-top:1.5rem ;
+}
+main h1{
+  color: var(--lightTextColor);
+  text-align: center;
+}
+main h4{
+  text-align: center;
+color: var(--lightTextColor);
+}
+main .draggable_list{
+  max-width: 90%;
+  margin-inline: auto;
+  margin-block: 1.3rem;
+    background-color:#00325e ;
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+padding: 0.5rem;
+}
+main .draggable_list li{
+  display: flex;
+  align-items: center;
+}
+main .draggable_list li:not(:last-of-type){
+  border-bottom: solid 1px var(--borderColor);
+}
+main .draggable_list li .number{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--lightTextColor);
+  font-weight: 700;
+  font-size: 19px;
+  width: 30px;
+height: 30px;
+background-color: #474747b9;
+border-radius: 0.1rem;
+}
+main .draggable_list li .draggable{
+  cursor: pointer;
+  display: flex;
+ align-items: center;
+  justify-content: space-between;
+  flex: 1;
+   padding: 1.1rem;
+}
+main .draggable_list li .draggable .star-name{
+   color: var(--lightTextColor);
+  font-weight: 700;
+}
+main .draggable_list li.over .draggable{
+  background-color:#034b8a ;
+}
+main .draggable_list li.right .star-name{
+  color:#3ae374;
+}
+main .draggable_list li.wrong .star-name{
+  color:#ff3838;
+}
+main .action{
+  padding: 0.5rem;
+ text-align: center;
+}
+main .action .check{
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.1rem;
+}
+main .action .check:active{
+ transform: scale(0.98);
+}
+main .action .icon{
+ color: #00325e;
+}
+main .draggable_list .draggable .icon{
+ color: var(--lightTextColor);
+}
