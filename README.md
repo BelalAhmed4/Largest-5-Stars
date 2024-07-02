@@ -1,7 +1,4 @@
-# Largest Stars Drag-and-Drop Interface
-
-![Project Logo](./imgs/galaxy.ico)
-<img src="./imgs/galaxy.ico" alt="Project Logo" style="width: 50px; height: 50px;">
+# Largest Stars Drag-and-Drop Interface <img src="./imgs/galaxy.ico" alt="Project Logo" style="width: 50px; height: 50px;">
 
 Welcome to the "Largest Stars Drag-and-Drop" project! This interactive application allows users to arrange the largest stars in the universe by size using a simple and intuitive drag-and-drop interface.
 
