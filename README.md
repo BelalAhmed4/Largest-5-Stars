@@ -4,16 +4,6 @@
 
 Welcome to the "Largest Stars Drag-and-Drop" project! This interactive application allows users to arrange the largest stars in the universe by size using a simple and intuitive drag-and-drop interface.
 
-## Table of Contents
-
-1. [Project Description](#project-description)
-2. [Features](#features)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Contributing](#contributing)
-6. [License](#license)
-7. [Contact](#contact)
-
 ## Project Description
 
 The "Largest Stars Drag-and-Drop" application provides an engaging way to learn about the largest stars in the universe. Users can drag and drop star names to order them according to their size and receive immediate feedback on their correctness. This project is built using HTML, CSS, and JavaScript and is designed to be both educational and fun.
